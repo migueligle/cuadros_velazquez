@@ -1,37 +1,59 @@
-html {
+html,body{
     margin: 0;
-}
+     padding: 0;
+    height: 100%;
+        font-family: 'Montserrat', sans-serif;
+    }   
 
-.nombre {
-width: 100%;
-    height: 6.25em ;
-    background-color: blue;
-}
-.mini {
 
-height: 54.5em;
-width: 12.5em;
-position:absolute;
-background-color: black;
-overflow: scroll;
+
+.title{
+    text-align: center;
+    background-color: aqua;
 
 }
-.cua{
-    margin-left: 12.5em;
-    height: 20em;
+h1{
+    padding-top: 1em;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.carru{
+    padding-left: 3em;
+    
+    height: 46em ;
+    width: 12.5em;
+    overflow:scroll;
+}
+
+.i{
+   
+
+}
+.buy{
+    padding: 12em;
+   
+    margin-top: 8em;
+   
+    align-content: center;
+}
+.small{
+    filter: grayscale();
+}
+.big{
+
+    height: 46em ;
+    width: 42em;
+}
+button{
+    
+  background-color: rgba(152,192,192,255);
+    border-radius: 30%;
     width: 50%;
- 
-    position: absolute;
-    background-color: red
-    
-
+    height: 10%;
+    border: solid 1px rgba(152,192,192,255);
 }
-.ti{
+.tbuy{
 
-    height: 20em;
-    width: 90%;
-    
-    
-    background-color:violet;
-    
 }
