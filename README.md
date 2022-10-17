@@ -88,13 +88,15 @@ para ello hemos tenido que duplicar la imagen, e insertar una id y una clase, en
  despues ,creamos una constante con la id de el ``` <div> ``` ,que contiene la imagen  y que la id __cambi__ sea igual a el elemento __cambi__, posteriormente se a creado una funcion  que se llama openfullimg ,y cambiamos con la id del ``` <div>```  cambiar el ``` display:flex;```  y otra funcion  con la __id__ de el span para quitar esta animacion en la que le cambiemos el ``` display```  a ``` none```  .
  
 
+### subir el repositorio a Git_Hub
+para subirlo  tendremos que insertar los siguentes comandos :
 
+``` git
+git branch -M main
+git remote add origin https://github.com/usario/repositorio.git
+git push -f -u origin main
 
-
-
-
-
-
+``` 
 
 
 
