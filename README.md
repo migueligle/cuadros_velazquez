@@ -24,23 +24,23 @@ En segundo lugar se a creado la estructura en  html en la que hemos introduccido
 - imagen del cuadro
 - texto informativo y  boton de compra
 
-en el archivo css se a introduccido el posicionamiento de la estructura css y sus estilos  añadiendo a cada div un ```background-color``` para toda la estructura para su maquetación.
+en el archivo css se a introduccido ,el posicionamiento de la estructura css, y sus estilos  añadiendo a cada div un ```background-color```, para toda su maquetación.
 
 una vez realizado esto ,nos iremos a la terminal para realizar un commit y sus comandos a realizar son :
-- ``` git status``` para su comprobacion, nos mostrará lo que no esta añadido o lo que esta modificado
+- ``` git status``` para su comprobación, nos mostrará lo que no esta añadido o lo que esta modificado
 
 - ``` git add + fichero ``` para agregar a la preparacion los ficheros a introduccir 
 
-- ``` git commit -m "comentario"``` este comando es para realizar una confirmación de todos los archivos y subirlos a git pero el argumento  ``` -m``` nos sirve para indicar un comentario al commit para poder trabajar posteriormente con ello 
+- ``` git commit -m "comentario"``` este comando sirve para realizar una confirmación de todos los archivos ,y subirlos a git, pero el argumento  ``` -m``` nos sirve para indicar un comentario al commit ,para poder trabajar posteriormente con ello 
 
 ### css:
 
-en este caso yo realizé  esta pagina  al principio con ```position```  y ```overflow:hidden``` para que el padre contenga al hijo  pero al ver el resultado busque otra alternativa y esa fue **FlexBox**  con sus propiedades
+en este caso ,yo realizé  esta pagina  al principio con ```position```  y ```overflow:hidden``` para que el padre contenga al hijo  pero al ver el resultado busque otra alternativa y esa fue **FlexBox**  con sus propiedades
 ```css
 display:fex;
 flex-direction: row;
 ```
-Realizé otra vez su estructura  y empece a añadir las imagenes de la barra lateral ,que para que tuviera un scroll introducí en el css ```oveflow:scroll;```.
+Realizé otra vez su estructura  ,y empece a añadir las imagenes de la barra lateral ,que para que tuviera un scroll introducí en el css ```oveflow:scroll;```.
 
 los textos  y el boton les agregre de este modo:
 ```html
@@ -48,7 +48,7 @@ los textos  y el boton les agregre de este modo:
 <p> <strong>  texto negrita </strong> </p>
 <button> Comprar </button>
 ```
-una vez realizado toda la maquetación y su contendio me pase a realizar los ultimos preparativos con css añadiendo colores, margenes etc...
+una vez realizado toda la maquetación, y su contendio me pase a realizar los ultimos preparativos con css añadiendo colores, margenes etc...
 
 ## Javascript
 A la hora de realizar javascrpit **estuve documentandome** un poco por algunas paginas webs empapandome un poco como se realiza **ya que Javascrpit no se a visto aun en clase** 
@@ -56,9 +56,9 @@ y pude realizarlo con exito por ultimo vamos a explicar un poquito como lo reali
 
 ### realización javascript
 ### realización javascript
-para la realización de  que cuando clickemos a una imagen  en la barra de navegación lateral se nos ponga en grande en el lado derecho
-para ello  hemos creado variables let en las que les indicamos el nombre con el atributo **Btn** y agregamos el ```.getElementById``` para que nos asigne el boton al la id indicada de cada imagen en la barra de navegacion 
-despues crearemos  una funcion con cada boton en la que le añadimos ``` el onclick y dentro de la funcion indicamos la id de la imagen  que en este caso es cambio para que nos cambie el atributo src  y por ultimo de este apartado tendremos que cambiar el texto con esta sintaxis:
+para la realización, de cuando clickemos a una imagen  en la barra de navegación lateral,y  se nos ponga en grande en el lado derecho
+  hemos creado variables let, en las que les indicamos el nombre con el atributo **Btn** ,y agregamos el ```.getElementById``` ,para que nos asigne el boton al la id indicada ,de cada imagen en la barra de navegacion 
+despues ,crearemos  una funcion con cada boton en la que le añadimos ``` el onclick y dentro de la funcion indicamos la id de la imagen , que en este caso es cambiar  el atributo src , y por ultimo de este apartado tendremos que cambiar el texto con esta sintaxis:
 ```javascript
 document.getElementById("titulo").innerHTML = "LAS MENINAS"; 
 ```.
@@ -83,9 +83,9 @@ brendaBtn.onclick = function(){
 
 ### realizacion con javascript  ampliar una imagen para visualizar
 
-para ello hemos tenido que duplicar la imagen e insertar una id y una clase en la que le hemos proporcionado  estilos de css para poder  escurecer el fondo ampliar la imagen y que este centrada , a parte de eso hemos añadido un span en el que le hemos añadido un poco de javascript
+para ello hemos tenido que duplicar la imagen, e insertar una id y una clase, en la que le hemos proporcionado  estilos de css para poder  escurecer el fondo ,para ampliar la imagen y que este centrada , a parte de eso hemos añadido un span ,en el que le hemos añadido un poco de javascript
 ```   <span onclick="colseImg()">x</span> ``` para poder realizar  una x para cerrar la ventana 
- despues creamos una constante con la id de el ``` <div> ``` que contiene la imagen  y que la id __cambi__ sea igual a el elemento __cambi__, posteriormente se a creado una funcion  que se llama openfullimg y cambiamos con la id del ``` <div>```  cambiar el ``` display:flex;```  y otra funcion  con la __id__ de el span para quitar esta animacion en la que le cambiemos el ``` display```  a ``` none```  .
+ despues ,creamos una constante con la id de el ``` <div> ``` ,que contiene la imagen  y que la id __cambi__ sea igual a el elemento __cambi__, posteriormente se a creado una funcion  que se llama openfullimg ,y cambiamos con la id del ``` <div>```  cambiar el ``` display:flex;```  y otra funcion  con la __id__ de el span para quitar esta animacion en la que le cambiemos el ``` display```  a ``` none```  .
  
 
 
