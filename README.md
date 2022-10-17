@@ -58,12 +58,12 @@ y pude realizarlo con exito por ultimo vamos a explicar un poquito como lo reali
 ### realización javascript
 para la realización, de cuando clickemos a una imagen  en la barra de navegación lateral,y  se nos ponga en grande en el lado derecho
   hemos creado variables let, en las que les indicamos el nombre con el atributo **Btn** ,y agregamos el ```.getElementById``` ,para que nos asigne el boton al la id indicada ,de cada imagen en la barra de navegacion 
-despues ,crearemos  una funcion con cada boton en la que le añadimos ``` el onclick y dentro de la funcion indicamos la id de la imagen , que en este caso es cambiar  el atributo src , y por ultimo de este apartado tendremos que cambiar el texto con esta sintaxis:
+despues ,crearemos  una funcion con cada boton en la que le añadimos  el ``` onclick ``` y dentro de la funcion indicamos la id de la imagen , que en este caso es cambiar  el atributo src , y por ultimo de este apartado tendremos que cambiar el texto con esta sintaxis:
 ```javascript
 document.getElementById("titulo").innerHTML = "LAS MENINAS"; 
-```.
+
 asi es como quedaria nuestro codigo :
-```javascript
+
 let brendaBtn = document.getElementById("brenda");
 let meninasBtn = document.getElementById("meninas");
 let vulcanoBtn = document.getElementById("vulcano");
