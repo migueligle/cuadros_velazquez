@@ -54,7 +54,7 @@ una vez realizado toda la maquetación, y su contendio me pase a realizar los ul
 A la hora de realizar javascrpit **estuve documentandome** un poco por algunas paginas webs empapandome un poco como se realiza **ya que Javascrpit no se a visto aun en clase** 
 y pude realizarlo con exito por ultimo vamos a explicar un poquito como lo realice :
 
-### realización javascript
+
 ### realización javascript
 para la realización, de cuando clickemos a una imagen  en la barra de navegación lateral,y  se nos ponga en grande en el lado derecho
   hemos creado variables let, en las que les indicamos el nombre con el atributo **Btn** ,y agregamos el ```.getElementById``` ,para que nos asigne el boton al la id indicada ,de cada imagen en la barra de navegacion 
