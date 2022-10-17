@@ -61,9 +61,9 @@ para la realización, de cuando clickemos a una imagen  en la barra de navegaci�
 despues ,crearemos  una funcion con cada boton en la que le añadimos  el ``` onclick ``` y dentro de la funcion indicamos la id de la imagen , que en este caso es cambiar  el atributo src , y por ultimo de este apartado tendremos que cambiar el texto con esta sintaxis:
 ```javascript
 document.getElementById("titulo").innerHTML = "LAS MENINAS"; 
-
+```
 asi es como quedaria nuestro codigo :
-
+``` javascript
 let brendaBtn = document.getElementById("brenda");
 let meninasBtn = document.getElementById("meninas");
 let vulcanoBtn = document.getElementById("vulcano");
